@@ -117,8 +117,16 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #4acaa8 !important;
+			color: #ff5800 !important;
+			transition: 0.5s;
 		}
+
+		.Nicolas:hover {
+			border-bottom-color: transparent;
+			color: #ffffff !important;
+			font-size: large;
+		}
+
 
 	strong, b {
 		color: #777;
@@ -1785,7 +1793,7 @@ input, select, textarea {
 	}
 
 	header.major h2 {
-		color: #4acaa8;
+		color: #ff5800;
 		font-size: 3.5em;
 	}
 
@@ -1848,7 +1856,7 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #4acaa8;
+			border-color: #FF8000;
 		}
 
 	select {
@@ -1953,7 +1961,7 @@ input, select, textarea {
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #4acaa8;
+			border-color: #FF8000;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2372,6 +2380,45 @@ input, select, textarea {
 		}
 
 /* Feature Icons */
+	.div{
+		width: 100%;
+		overflow: hidden;
+		border: 2px solid;
+		border-radius: 40px;
+	}
+
+	.div:hover{
+		border: 2px solid #ff5800;
+	}
+
+	.img{
+		margin-bottom: -10px;
+		width: 100%;
+		transition: 0.5s;
+		object-fit: cover;
+		bottom: 0px;
+	}
+
+	.img:hover{
+		transform: scale(1.2);
+	}
+
+	@media screen and (max-width: 736px) {
+
+		/* Basic */
+	
+		.div {
+			width: 100%;
+			height: 300px;
+			margin-bottom: 50px;
+		}
+
+		.img{
+			height: 100%;
+			object-fit:fill;
+		}
+	
+	}
 
 	ul.feature-icons {
 		list-style: none;
@@ -2402,7 +2449,7 @@ input, select, textarea {
 			}
 
 			ul.feature-icons li:before {
-				background: #4acaa8;
+				background: #ff5800;
 				border-radius: 100%;
 				color: #ffffff;
 				display: block;
@@ -2618,22 +2665,24 @@ input, select, textarea {
 		input[type="reset"].primary,
 		input[type="button"].primary,
 		.button.primary,a.primary {
-			background-color: #4acaa8;
+			background-color: #ff5800;
 			color: #ffffff !important;
+			transition: 0.5s;
 		}
 
 			input[type="submit"].primary:hover,
 			input[type="reset"].primary:hover,
 			input[type="button"].primary:hover,
 			.button.primary:hover,a.primary:hover {
-				background-color: #5ed0b1;
+				background-color: #eee6e6;
+				color: #ff5800 !important;
 			}
 
 			input[type="submit"].primary:active,
 			input[type="reset"].primary:active,
 			input[type="button"].primary:active,
 			.button.primary:active,a.primary:active {
-				background-color: #39c29d;
+				background-color: #ff5800;
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -2673,6 +2722,11 @@ input, select, textarea {
 			.features article .image img {
 				display: block;
 				width: 100%;
+				transition: 0.5s;
+			}
+
+			.features article .image img:hover {
+				border: solid 1px #ff5800;
 			}
 
 		.features article .inner {
@@ -2700,7 +2754,7 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background: #4acaa8;
+		background-image: radial-gradient(circle, #ff8000, #ff6d00, #ff5800, #ff3c00, #ff0000);
 		color: #d2f2e9;
 		height: 100%;
 		overflow-y: auto;
@@ -2789,7 +2843,7 @@ input, select, textarea {
 			}
 
 				#header > nav ul li {
-					border-top: solid 2px #5ccfb1;
+					border-top: solid 2px #FF8000;
 					display: block;
 					padding: 0;
 				}
@@ -2808,7 +2862,7 @@ input, select, textarea {
 
 						#header > nav ul li a.active {
 							background: #fff;
-							color: #4acaa8 !important;
+							color: #FF8000 !important;
 						}
 
 					#header > nav ul li:first-child {
@@ -2826,6 +2880,12 @@ input, select, textarea {
 
 	#main > section {
 		border-top: solid 6px #f4f4f4;
+		/* Color de fondo en Section */
+		/* background-image: linear-gradient(
+			to bottom,
+			rgba(255, 255, 0, 0.5),
+			rgba(0, 0, 255, 0.5)
+		), url("https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-03.jpg"); */
 	}
 
 		#main > section > .container {
@@ -2839,9 +2899,9 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		background: #fafafa;
+		background-image: radial-gradient(circle, #ff8000, #ff6d00, #ff5800, #ff3c00, #ff0000);
 		border-top: 0;
-		color: #c0c0c0;
+		color: #ffffff;
 		overflow: hidden;
 		padding: 4em 0 2em 0;
 	}
@@ -3076,7 +3136,7 @@ input, select, textarea {
 					}
 
 					#titleBar .toggle:before {
-						background: #4acaa8;
+						background: #ff5800;
 						color: #ffffff;
 						content: '\f0c9';
 						display: block;

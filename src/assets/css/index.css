@@ -17,8 +17,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(to right top, #2f71ac, #008abb, #00a1be, #00b7b6, #4acaa8);
-    border: 2px solid;
+    background-image: radial-gradient(circle, #ff8000, #ff6d00, #ff5800, #ff3c00, #ff0000);
+    border: 2px solid #ff5800;
     border-radius: 40px;
 }
 
@@ -71,4 +71,22 @@ body {
 .puntaje {
     padding: 10px;
     color: white;
+}
+
+@media screen and (max-width: 736px) {
+
+    /* Basic */
+
+    .contenedor {
+        width: 85vw;
+    }
+
+    .encabezado {
+        width: 75vw;
+    }
+
+    .btn{
+        width: 70vw;
+    }
+
 }

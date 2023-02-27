@@ -37,12 +37,27 @@ function escogerPreguntaAleatoria() {
     if (npreguntas.length == interprete_bp.length) {
       //Aquí es donde el juego se reinicia
       if (mostrar_pantalla_juego_términado) {
-        swal.fire({
+        // swal.fire({
+        //   title: "Juego finalizado",
+        //   text:
+        //     "Puntuación: " + preguntas_correctas + "/" + (preguntas_hechas),
+        //   icon: "success"
+        // });
+        Swal.fire({
           title: "Juego finalizado",
           text:
-            "Puntuación: " + preguntas_correctas + "/" + (preguntas_hechas - 1),
-          icon: "success"
-        });
+            "Puntuación: " + preguntas_correctas + "/" + (preguntas_hechas),
+          width: 600,
+          padding: '3em',
+          color: '#716add',
+          background: '#fff url(https://sweetalert2.github.io/images/trees.png)',
+          backdrop: `
+            rgba(0,0,123,0.4)
+            url("https://sweetalert2.github.io/images/nyan-cat.gif")
+            left top
+            no-repeat
+          `
+        })
       }
       if (reiniciar_puntos_al_reiniciar_el_juego) {
         preguntas_correctas = 0
