@@ -160,7 +160,7 @@ input, select, textarea {
 	}
 
 	h3 {
-		font-size: 1.75em;
+		font-size: 2.75em;
 		line-height: 1.5em;
 	}
 
@@ -2843,7 +2843,7 @@ input, select, textarea {
 			}
 
 				#header > nav ul li {
-					border-top: solid 2px #FF8000;
+					border-top: solid 2px #ffffff;
 					display: block;
 					padding: 0;
 				}
@@ -2963,7 +2963,7 @@ input, select, textarea {
 		/* Main */
 
 			#main > section > .container {
-				padding: 4em 0 2em 0;
+				padding: 2.5em 0 2em 0;
 			}
 
 	}

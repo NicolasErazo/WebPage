@@ -10,13 +10,13 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="assets/css/main.css" />
 	<link rel="stylesheet" href="assets/css/index.css" />
+	<link rel="stylesheet" href="assets/css/text.css" />
 	<script src="https://kit.fontawesome.com/fa00524f83.js" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.3.0/dist/sweetalert2.all.min.js"></script>
 </head>
 
 <body class="is-preload">
 
-	<app-root></app-root>
 	<!-- Header -->
 	<section id="header">
 		<header>
@@ -57,7 +57,7 @@
 				</div>
 				<div class="container">
 					<header class="major">
-						<h2>Bienvenido</h2>
+						<h2><app-root></app-root></h2>
 						<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit<br>
 							by <a href="/">Lorem</a>.
 						</p>
@@ -86,8 +86,13 @@
 						<li class="icon solid fa-bolt">Rompe tu Record</li>
 						<li class="icon solid fa-users">Invita tus Amigos</li>
 					</ul>
-					<p><i class="fa-solid fa-arrow-down"></i>&nbsp;<strong>¡Click sobre la imagen para
-							jugar!</strong>&nbsp;<i class="fa-solid fa-arrow-down"></i></p>
+
+					<div class="content">
+						<h2><i class="fa-solid fa-arrow-down"></i>&nbsp;¡Click Abajo!&nbsp;<i
+								class="fa-solid fa-arrow-down"></i></h2>
+						<h2><i class="fa-solid fa-arrow-down"></i>&nbsp;¡Click Abajo!&nbsp;<i
+								class="fa-solid fa-arrow-down"></i></h2>
+					</div>
 					<a
 						href="https://view.genial.ly/63fbd0f1aee4d80018c3e7f4/interactive-content-serpientes-y-escaleras">
 						<div class="div">
@@ -139,8 +144,12 @@
 					<p>El juego es una serie de preguntas que se plantean en el marco de un concurso o de un juego,
 						cuyas respuestas deben ser escogidas entre diferentes opciones y lograr responder correctamente
 						la mayoria.</p>
-					<p><i class="fa-solid fa-arrow-down"></i>&nbsp;<strong>¡Elige una respuesta para
-							jugar!</strong>&nbsp;<i class="fa-solid fa-arrow-down"></i></p>
+					<div class="content">
+						<h2><i class="fa-solid fa-arrow-down"></i>&nbsp;¡Juega!&nbsp;<i
+								class="fa-solid fa-arrow-down"></i></h2>
+						<h2><i class="fa-solid fa-arrow-down"></i>&nbsp;¡Juega!&nbsp;<i
+								class="fa-solid fa-arrow-down"></i></h2>
+					</div>
 					<div class="contenedor">
 						<div class="puntaje" id="puntaje"></div>
 						<div class="encabezado">
@@ -201,7 +210,8 @@
 			<div class="container">
 				<ul class="copyright">
 					<li>&copy; Untitled. All rights reserved.</li>
-					<li>Design: <a class="Nicolas" href="https://www.linkedin.com/in/nicolaserazo/">Nicolas Erazo</a></li>
+					<li>Design: <a class="Nicolas" href="https://www.linkedin.com/in/nicolaserazo/">Nicolas Erazo</a>
+					</li>
 				</ul>
 			</div>
 		</section>
