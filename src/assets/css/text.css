@@ -15,11 +15,11 @@
 
 .content h2:nth-child(1) {
     color: transparent;
-    -webkit-text-stroke: 2px #ff5800;
+    -webkit-text-stroke: 2px #0917F3;
 }
 
 .content h2:nth-child(2) {
-    color: #ff5800;
+    color: #0917F3;
     animation: animate 4s ease-in-out infinite;
 }
 

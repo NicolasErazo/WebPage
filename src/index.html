@@ -11,6 +11,7 @@
 	<link rel="stylesheet" href="assets/css/main.css" />
 	<link rel="stylesheet" href="assets/css/index.css" />
 	<link rel="stylesheet" href="assets/css/text.css" />
+	<link rel="stylesheet" href="assets/css/details.css" />
 	<script src="https://kit.fontawesome.com/fa00524f83.js" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.3.0/dist/sweetalert2.all.min.js"></script>
 </head>
@@ -20,17 +21,19 @@
 	<!-- Header -->
 	<section id="header">
 		<header>
-			<span class="image avatar"><img src="./assets/images/avatar.jpg" alt="" /></span>
+			<span class="image avatar"><img src="./assets/images/Pig.png" alt="" /></span>
 			<h1 id="logo"><a href="#">Aprende con Innovacion</a></h1>
-			<p>Amplia tus conocimientos con juegos e informacion interactiva sobre finanzas.</p>
+			<p>El hábito de ahorrar es en sí mismo una educación; fomenta todas las virtudes, enseña la
+				abnegación, cultiva el sentido del orden, entrena la previsión y así ensancha la mente.</p>
 		</header>
 		<nav id="nav">
 			<ul>
-				<li><a href="#one" class="active">Acerca de</a></li>
-				<li><a href="#two">Juego Interactivo</a></li>
-				<li><a href="#three">Galeria de Video</a></li>
-				<li><a href="#four">Trivia</a></li>
-				<li><a href="#five">Encuesta</a></li>
+				<li><a href="#one" class="active"><i class="fa-solid fa-house"></i></a></li>
+				<li><a href="#two" class="active">Conceptos Claves</a></li>
+				<li><a href="#three">Juego Interactivo</a></li>
+				<li><a href="#four">Galeria de Video</a></li>
+				<li><a href="#five">Trivia</a></li>
+				<li><a href="#six">Encuesta</a></li>
 			</ul>
 		</nav>
 		<footer>
@@ -53,23 +56,98 @@
 			<!-- One -->
 			<section id="one">
 				<div class="image main" data-position="center">
-					<img src="./assets/images/banner.gif" alt="" />
+					<img src="./assets/images/banner2.gif" alt="" />
 				</div>
 				<div class="container">
 					<header class="major">
 						<h2><app-root></app-root></h2>
-						<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit<br>
-							by <a href="/">Lorem</a>
-						</p>
+						<p></p>
 					</header>
-					<p class="reveal fade-bottom">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam sint fuga dolore accusamus
-						sapiente est unde quos pariatur? Praesentium, libero. Nam, laboriosam enim! Tempore modi quo
-						praesentium vel nesciunt dolorum?</p>
+					<div>
+						<br>
+						<p><strong>Te ofrecemos un curso de finanzas personales para que puedas tener educación y
+								libertad
+								financiera. Vas a explorar una serie de contenidos,metodologías y niveles que te iran
+								guiando y enseñando a obtener la clave de la libertad económica de una forma creativa e
+								innovadora.</strong></p>
+					</div>
+				</div>
+			</section>
+
+			<section id="two" class="reveal fade-bottom">
+				<div class="container">
+					<h2>Conceptos Claves</h2>
+					<p><strong>Conocer estos términos económicos y el funcionamiento de la
+						economía lo puede ayudar a
+						tomar mejores decisiones de inversión. </strong></p>
+					<details open>
+						<summary>Recesión económica: ¿qué es?</summary>
+						<p>Existe recesión cuando hay un retroceso relativo en toda la actividad económica de un país o
+							una región durante un periodo de tiempo. Se origina cuando se produce una disminución del
+							consumo, de la inversión y de la producción. Como consecuencia, aumenta el desempleo. Por lo
+							general, se habla de recesión, cuando la tasa de variación del Producto Interno Bruto (PIB)
+							en un territorio o en una región es negativa durante dos trimestres consecutivos.</p>
+					</details>
+					<details>
+						<summary>Inflación: ¿qué es?</summary>
+						<p>La inflación es el aumento generalizado y sostenido en el precio de los bienes y servicios de
+							una economía durante un período de tiempo. Se mide a través del Índice de Precios al
+							Consumidor (IPC), un indicador que rastrea la variación en los precios de los bienes y
+							servicios que conforman la canasta familiar. Cuando existe inflación, las personas pueden
+							comprar menos cosas con la misma cantidad de dinero que antes. Lo anterior, significa que
+							con la inflación, el dinero pierde poder adquisitivo. </p>
+					</details>
+					<details>
+						<summary>Desinflación: ¿qué es?</summary>
+						<p>La desinflación es un fenómeno en el que el crecimiento o aumento generalizado en los precios
+							de los bienes y servicios en una economía se reduce. La disminución de este indicador no
+							significa un crecimiento cero o negativo de la inflación. Si esto sucede estaríamos hablando
+							de deflación. </p>
+					</details>
+					<details>
+						<summary>Estanflación: ¿qué es?</summary>
+						<p>La estanflación es un término que se utiliza para describir una situación atípica, en la que
+							una economía experimenta un estancamiento en el crecimiento, al mismo tiempo que un aumento
+							generalizado en el precio de los bienes y servicios. Es decir, hay estancamiento del
+							crecimiento económico e inflación. Como resultado, se presenta una disminución en la demanda
+							y un aumento del desempleo. </p>
+					</details>
+					<details>
+						<summary>Tasa de interés: ¿qué es?</summary>
+						<p>La tasa de interés o el tipo de interés es el precio que tiene el dinero. Es decir, es el
+							valor que se debe pagar por utilizar unos recursos durante un tiempo determinado. Por
+							ejemplo, cuando una persona accede a un crédito, la tasa de interés es el cobro que realizan
+							las entidades financieras por prestar ese dinero.
+							<br><br>
+							Si bien, cada entidad financiera puede establecer sus tasas de interés para sus productos,
+							estas son fijadas a partir de la tasa de intervención de la política monetaria.
+						</p>
+					</details>
+					<details>
+						<summary>Tasa de intervención de la política monetaria</summary>
+						<p>La tasa de intervención, tasas de referencia o tasa de interés de la política monetaria es el
+							porcentaje de dinero mínimo que cobran los bancos centrales de los países a las entidades
+							financieras por prestarles dinero. En Colombia, el Banco de la República (Banrep) es el
+							encargado de definir la tasa de intervención.
+							<br><br>
+							Ahora bien, las tasas de interés están
+							determinadas por diferentes factores, como la oferta y la demanda de dinero, el estado de
+							una economía o la política monetaria de un Gobierno.
+						</p>
+					</details>
+					<details>
+						<summary>Riesgo cambiario: ¿qué es?</summary>
+						<p>El riesgo cambiario, de tipo de cambio o de moneda, hace referencia a la probabilidad de que
+							surja un cambio en la cotización de una divisa frente a otra. Este riesgo se asume, por
+							ejemplo, en el comercio internacional cuando se realizan transacciones en dos monedas,
+							especialmente cuando una de las divisas utilizadas en la transacción sufre una devaluación
+							no prevista.</p>
+					</details>
 				</div>
 			</section>
 
 			<!-- Two -->
-			<section id="two" class="reveal fade-bottom">
+			<section id="three" class="reveal fade-bottom">
 				<div class="container">
 					<h3>Juego Interactivo</h3>
 					<p><strong>Serpientes y Escaleras</strong> es un antiguo juego de tablero indio, considerado
@@ -103,7 +181,7 @@
 			</section>
 
 			<!-- Three -->
-			<section id="three" class="reveal fade-bottom">
+			<section id="four" class="reveal fade-bottom">
 				<div class="container">
 					<h3>Galeria de Video</h3>
 					<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non.
@@ -138,7 +216,7 @@
 			</section>
 
 			<!-- Four -->
-			<section id="four" class="reveal fade-bottom">
+			<section id="five" class="reveal fade-bottom">
 				<div class="container">
 					<h3>Trivia</h3>
 					<p>El juego es una serie de preguntas que se plantean en el marco de un concurso o de un juego,
@@ -172,7 +250,7 @@
 			</section>
 
 			<!-- Five -->
-			<section id="five" class="reveal fade-bottom">
+			<section id="six" class="reveal fade-bottom">
 				<div class="container">
 					<h3>Encuesta</h3>
 					<p>Somos una empresa emergente que quiere obtener información sobre la forma en que las mujeres

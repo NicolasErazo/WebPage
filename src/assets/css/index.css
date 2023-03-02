@@ -17,8 +17,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: radial-gradient(circle, #ff8000, #ff6d00, #ff5800, #ff3c00, #ff0000);
-    border: 2px solid #ff5800;
+    background-image: linear-gradient(to right top, #27b2df, #00a2e2, #0090e3, #007ce1, #0066d9, #145ad8, #2a4cd6, #3d3bd1, #3535da, #2b2de2, #1f24eb, #0917f3);
+    border: 2px solid #0917F3;
     border-radius: 40px;
 }
 
