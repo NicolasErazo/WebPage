@@ -44,13 +44,13 @@ function escogerPreguntaAleatoria() {
         //   icon: "success"
         // });
         Swal.fire({
-          title: "Juego finalizado",
+          title: "¡Fin del Juego!",
           text:
             "Puntuación: " + preguntas_correctas + "/" + (preguntas_hechas),
           width: 600,
           padding: '3em',
           color: '#716add',
-          background: '#fff url(https://sweetalert2.github.io/images/trees.png)',
+          background: '#fff url(https://i.pinimg.com/originals/79/50/0c/79500cbc38fa4bd5f5b7c5d640a5cb35.gif)',
           backdrop: `
             rgba(0,0,123,0.4)
             url("https://sweetalert2.github.io/images/nyan-cat.gif")

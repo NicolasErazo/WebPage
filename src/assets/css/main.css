@@ -2786,6 +2786,18 @@ input, select, textarea {
 				border: solid 1px #0917F3;
 			}
 
+			.features article .image iframe {
+				display: block;
+				width: 100%;
+				transition: 0.5s;
+				border-radius: 10px;
+			}
+
+			.features article .image iframe:hover {
+				border: solid 1px #0917F3;
+				border-radius: 40px;
+			}
+
 		.features article .inner {
 			display: inline-block;
 			vertical-align: middle;
