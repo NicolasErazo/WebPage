@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { IndexOldComponent } from './index-old.component';
+import { TriviaComponent } from './trivia.component';
 
-describe('IndexOldComponent', () => {
-  let component: IndexOldComponent;
-  let fixture: ComponentFixture<IndexOldComponent>;
+describe('TriviaComponent', () => {
+  let component: TriviaComponent;
+  let fixture: ComponentFixture<TriviaComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ IndexOldComponent ]
+      declarations: [ TriviaComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(IndexOldComponent);
+    fixture = TestBed.createComponent(TriviaComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
