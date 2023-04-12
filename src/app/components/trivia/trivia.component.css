@@ -10,7 +10,7 @@ body {
 }
 
 .contenedor {
-    width: 62vw;
+    width: 75vw;
     padding: 10px;
     height: auto;
     display: inline-flex;
@@ -30,8 +30,8 @@ body {
     position: relative;
     background: #1ABC9C;
     min-width: 200px;
-    width: 70%;
-    max-width: 600px;
+    width: 90%;
+    max-width: 700px;
     padding: 10px;
     border-radius: 10px;
 }
@@ -59,7 +59,7 @@ body {
     font-size: larger;
     font-weight: bold;
     background: #1ABC9C;
-    width: 60%;
+    width: 80%;
     max-width: 550px;
     padding: 10px;
     margin: 5px;
