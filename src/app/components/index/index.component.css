@@ -56,6 +56,7 @@ details[open] summary::before {
 
 
 .img {
+    width: 600px;
     transition: 0.5s;
     object-fit: cover;
     bottom: 0px;

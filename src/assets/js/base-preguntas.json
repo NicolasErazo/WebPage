@@ -1,22 +1,42 @@
 [
     {
-        "categoria": "Arte y literatura",
-        "pregunta": "¿Quién pintó la mona lisa?",
-        "respuesta": "Leonardo da Vinci",
-        "incorrecta1": "Picasso",
-        "incorrecta2": "Miguel Ángel",
-        "incorrecta3": "Monet",
-        "imagen": "https://i.ibb.co/9cjvmw1/mona-lisa.jpg",
-        "objectFit": "cover"
+        "categoria": "Finanzas Personales",
+        "pregunta": "¿Que es la libertad financiera?",
+        "respuesta": "Contar con los ingresos suficientes para solventar necesidades económicas, generando ingresos adicionales junto a todas las acciones que favorezcan la salud financiera",
+        "incorrecta1": "No se controlan gastos ni ingresos",
+        "incorrecta2": "No se deben generar ingresos adicionales",
+        "incorrecta3": "Es simplemente no gastar tanto",
+        "imagen": "https://d3t4nwcgmfrp9x.cloudfront.net/upload/educacion-financiera-mejorar-finanzas-personales-644x342.jpg",
+        "objectFit": "contain"
     },
     {
-        "categoria": "Arte y literatura",
-        "pregunta": "Pintor de  \"El jardín de las delicias\"",
-        "respuesta": "El Bosco",
-        "incorrecta1": "Velásquez",
-        "incorrecta2": "Picasso",
-        "incorrecta3": "Dalí\r",
-        "imagen": "https://i.ibb.co/SDjX7PM/jardin-de-las-delicias.jpg",
-        "objectFit": "cover"
+        "categoria": "Finanzas Personales",
+        "pregunta": "¿Cuantos pasos existen para alcanzar la libertad financiera?",
+        "respuesta": "7",
+        "incorrecta1": "3",
+        "incorrecta2": "4",
+        "incorrecta3": "5",
+        "imagen": "https://josejimenez.pro/wp-content/uploads/2023/03/5-niveles-para-lograr-la-libertad-financiera-1024x683.jpg",
+        "objectFit": "contain"
+    },
+    {
+        "categoria": "Finanzas Personales",
+        "pregunta": "¿Que son las finanzas personales?",
+        "respuesta": "Conjunto de decisiones y acciones que una persona toma para manejar sus ingresos, gastos, inversiones y deudas de manera efectiva",
+        "incorrecta1": "Manejar el dinero",
+        "incorrecta2": "Tener y gastar dinero",
+        "incorrecta3": "Son el conjunto de decisiones de ahorro e inversión a largo plazo",
+        "imagen": "https://assets-global.website-files.com/5c4ba48132b5c62df3e9c1b4/60f1c4a0512665f4d4ebe7a0_Finanzas%20personales%20y%20educaci%C3%B3n%20financiera-p-800.png",
+        "objectFit": "contain"
+    },
+    {
+        "categoria": "Finanzas Personales",
+        "pregunta": "¿Que es un presupuesto?",
+        "respuesta": "Es una herramienta esencial para administrar tus finanzas personales. Planificar gastos, controla ingresos e identifica oportunidades de ahorro",
+        "incorrecta1": "Es un curso practico para manejar el dinero",
+        "incorrecta2": "Es un instructivo para Tener y gastar dinero",
+        "incorrecta3": "Es una acción para tomar  decisiones de ahorro e inversión a largo plazo",
+        "imagen": "https://www.elheraldo.co/sites/default/files/styles/width_1180/public/articulo/2018/10/06/248209_1.jpg",
+        "objectFit": "contain"
     }
 ]
