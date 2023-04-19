@@ -56,10 +56,10 @@ body {
 }
 
 .btn {
+    background: #1ABC9C;
     color: white;
     font-size: larger;
     font-weight: bold;
-    background: #1ABC9C;
     width: 80%;
     max-width: 550px;
     padding: 10px;

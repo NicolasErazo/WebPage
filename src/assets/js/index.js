@@ -143,7 +143,7 @@ function oprimir_btn(i) {
 
 function reiniciar() {
   for (const btn of btn_correspondiente) {
-    btn.style.background = "white";
+    btn.style.background = "#1ABC9C";
   }
   escogerPreguntaAleatoria();
 }
